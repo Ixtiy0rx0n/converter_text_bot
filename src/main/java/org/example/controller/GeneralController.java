@@ -40,6 +40,7 @@ public class GeneralController {
             sendMessage.disableWebPagePreview();
         } else if (text.equals("Kiril ⏩ Lotin")) {
             msg="Kiril tilida matn yuboring.";
+//
             sendMessage.setText(msg);
             sendMessage.setParseMode("Markdown");
             sendMessage.disableWebPagePreview();
